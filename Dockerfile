@@ -10,3 +10,4 @@ ENV PATH="${PATH}:/camel-launcher-$CAMEL_VERSION/bin"
 # used to initiliaze dependencies in the docker image
 RUN camel.sh version
     
+ENTRYPOINT [ "camel.sh" ]
